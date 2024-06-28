@@ -16,6 +16,7 @@ function Hero() {
   return (
     <>
     <div className='container'>
+        <h1><i class="fa-brands fa-github"></i></h1>
         <h2>GitHub User Finder</h2>
         <div id='search-section'>
             <form onSubmit={(e) => e.preventDefault()}>
